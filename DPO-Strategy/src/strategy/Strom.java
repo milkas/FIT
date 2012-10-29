@@ -15,6 +15,10 @@ package strategy;
     Strom() {
       koren = null;
     }
+    
+    public Vrchol getKoren(){
+        return koren;
+    }
 	
     private Vrchol vlozR(Vrchol v, int klic, String data) {
       if (v == null) {
